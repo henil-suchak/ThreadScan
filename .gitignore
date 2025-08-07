@@ -1,0 +1,28 @@
+# Binaries
+file_processor
+main
+*.out
+*.exe
+
+# Object files
+*.o
+
+# Build system files
+*.log
+*.dSYM/
+*.DS_Store
+
+# Mac OS metadata
+.DS_Store
+
+# Editor or IDE config
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Input/output example
+input/
+output/
+
+# Gitignore itself and Makefile are NOT ignored!
