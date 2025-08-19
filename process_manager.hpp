@@ -1,16 +1,14 @@
+// process_manager.hpp
+// Declares the function that manages child processes.
+
 #ifndef PROCESS_MANAGER_HPP
 #define PROCESS_MANAGER_HPP
 
 #include <vector>
 #include <string>
+#include "common.hpp"
 
-/**
- * @brief Launches a child process for each file path provided.
- *
- * The parent process will wait for all child processes to complete.
- *
- * @param files A vector of strings, where each string is a path to a file.
- */
-void launch_processes_for_files(const std::vector<std::string>& files);
+// Correct declaration with all required arguments.
+void launch_processes_for_files(const std::vector<std::string>& files, OperationType operation, const std::vector<std::string>& keywords);
 
 #endif // PROCESS_MANAGER_HPP
